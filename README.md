@@ -1,3 +1,3 @@
 # UnityEditorTool
 
-1.AssetBundleBuildTool
+1.AssetBundleEditor
