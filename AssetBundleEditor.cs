@@ -154,8 +154,7 @@ public class AssetBundleEditor : EditorWindow
     /// <param name="dir"></param>
     private static FileInfo GenerateVersionInfo(string dir)
     {
-        PackageConfig versionProto = new PackageConfig();
-        //Log(dir);
+        PackageConfig versionProto = new PackageConfig();;
         GenerateVersionProto(dir, versionProto, "");
 
         using (FileStream fileStream = new FileStream($"{dir}/{_lowerModuleName}.txt", FileMode.Create))
